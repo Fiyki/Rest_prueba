@@ -10,11 +10,11 @@ public class Animal {
         public Animal() {
         }
 
-        public Animal(long id, String nombre, int edad, double peso) {
+        public Animal(long id, String nombre, int edad, double altura) {
             this.numerin = id;
             this.nombre = nombre;
             this.numero_caja = edad;
-            this.altura = peso;
+            this.altura = altura;
         }
 
         public long getId() {
